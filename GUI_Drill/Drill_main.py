@@ -1,7 +1,7 @@
 # Python Ver:   3.7.2
 #
-# Purpose:      Phonebook GUI using Tkinter Parent and Child relationship
-#               Tech Academy Demo
+# Purpose:      Design file searching window
+#
 #
 #
 # Tested OS:    macOS 10.13
