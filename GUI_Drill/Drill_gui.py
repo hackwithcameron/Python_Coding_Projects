@@ -2,8 +2,8 @@ from tkinter import *
 import tkinter as tk
 
 
-import GUI_Drill.Drill_func as drill_func
-import GUI_Drill.Drill_main as drill_main
+from GUI_Drill import Drill_func as drill_func
+from GUI_Drill import Drill_main as drill_main
 
 
 def load_gui(self):

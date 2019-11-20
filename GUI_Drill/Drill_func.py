@@ -1,3 +1,9 @@
+from tkinter import *
+import tkinter as tk
+
+from GUI_Drill import Drill_main as drill_main
+from GUI_Drill import Drill_gui as drill_gui
+
 def center_window(self, w, h):
     screen_width = self.master.winfo_screenwidth()
     screen_height = self.master.winfo_screenheight()
