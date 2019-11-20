@@ -26,7 +26,8 @@ def load_gui(self):
     self.btn_close = tk.Button(self.master, width=12, height=3, text="Close Program")
     self.btn_close.grid(row=2, column=3, padx=(15, 0), pady=(0, 0), sticky=S+E)
 
-
+if __name__ == "__main__":
+    pass
 
 
  

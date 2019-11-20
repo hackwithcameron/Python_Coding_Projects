@@ -5,3 +5,7 @@ def center_window(self, w, h):
     y = int((screen_height/2) - (h/2))
     center = self.master.geometry("{}x{}+{}+{}".format(w, h, x, y))
     return center
+
+
+if __name__ == "__main__":
+    pass
