@@ -42,7 +42,7 @@ def recordMove(self):
     with conn:
         cur = conn.cursor()
         for i, e in zip(files, times):
-            try:
+            try: # Checks for existing file in db if file already in db it does not get duplicated
                 cur.execute("""SELECT col_file FROM tbl_transferTimes WHERE col_file = (?)""", [i])
                 var = cur.fetchall()[0]
                 if var[0] != i:
